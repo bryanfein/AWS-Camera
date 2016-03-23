@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4FEFC481B99FEAE00EAA7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFC471B99FEAE00EAA7E4 /* main.m */; };
+		F4FEFC4B1B99FEAE00EAA7E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFC4A1B99FEAE00EAA7E4 /* AppDelegate.m */; };
+		F4FEFC4E1B99FEAE00EAA7E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFC4D1B99FEAE00EAA7E4 /* ViewController.m */; };
+		F4FEFC511B99FEAE00EAA7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFC4F1B99FEAE00EAA7E4 /* Main.storyboard */; };
+		F4FEFC531B99FEAE00EAA7E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFC521B99FEAE00EAA7E4 /* Images.xcassets */; };
+		F4FEFC561B99FEAE00EAA7E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FEFC541B99FEAE00EAA7E4 /* LaunchScreen.xib */; };
+		F4FEFC621B99FEAE00EAA7E4 /* Amazon_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FEFC611B99FEAE00EAA7E4 /* Amazon_CameraTests.m */; };
+		F4FFE0B81B9A463900076198 /* AWSAPIGateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0A81B9A463900076198 /* AWSAPIGateway.framework */; };
+		F4FFE0B91B9A463900076198 /* AWSAutoScaling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0A91B9A463900076198 /* AWSAutoScaling.framework */; };
+		F4FFE0BA1B9A463900076198 /* AWSCloudWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AA1B9A463900076198 /* AWSCloudWatch.framework */; };
+		F4FFE0BB1B9A463900076198 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AB1B9A463900076198 /* AWSCore.framework */; };
+		F4FFE0BC1B9A463900076198 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AC1B9A463900076198 /* AWSDynamoDB.framework */; };
+		F4FFE0BD1B9A463900076198 /* AWSEC2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AD1B9A463900076198 /* AWSEC2.framework */; };
+		F4FFE0BE1B9A463900076198 /* AWSElasticLoadBalancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AE1B9A463900076198 /* AWSElasticLoadBalancing.framework */; };
+		F4FFE0BF1B9A463900076198 /* AWSKinesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0AF1B9A463900076198 /* AWSKinesis.framework */; };
+		F4FFE0C01B9A463900076198 /* AWSLambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B01B9A463900076198 /* AWSLambda.framework */; };
+		F4FFE0C11B9A463900076198 /* AWSMachineLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B11B9A463900076198 /* AWSMachineLearning.framework */; };
+		F4FFE0C21B9A463900076198 /* AWSMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B21B9A463900076198 /* AWSMobileAnalytics.framework */; };
+		F4FFE0C41B9A463900076198 /* AWSSES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B41B9A463900076198 /* AWSSES.framework */; };
+		F4FFE0C51B9A463900076198 /* AWSSimpleDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B51B9A463900076198 /* AWSSimpleDB.framework */; };
+		F4FFE0C61B9A463900076198 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B61B9A463900076198 /* AWSSNS.framework */; };
+		F4FFE0C71B9A463900076198 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0B71B9A463900076198 /* AWSSQS.framework */; };
+		F4FFE0C91B9A464700076198 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0C81B9A464700076198 /* AWSCognito.framework */; };
+		F4FFE0CC1B9A64A200076198 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0CB1B9A64A200076198 /* AWSS3.framework */; };
+		F4FFE0CE1B9A650F00076198 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0CD1B9A650F00076198 /* libz.dylib */; };
+		F4FFE0D01B9A651900076198 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0CF1B9A651900076198 /* libsqlite3.dylib */; };
+		F4FFE0D21B9A652700076198 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFE0D11B9A652700076198 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4FEFC5C1B99FEAE00EAA7E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4FEFC3A1B99FEAE00EAA7E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FEFC411B99FEAE00EAA7E4;
+			remoteInfo = Amazon_Camera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4FEFC421B99FEAE00EAA7E4 /* Amazon_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FEFC461B99FEAE00EAA7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FEFC471B99FEAE00EAA7E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4FEFC491B99FEAE00EAA7E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4FEFC4A1B99FEAE00EAA7E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4FEFC4C1B99FEAE00EAA7E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4FEFC4D1B99FEAE00EAA7E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4FEFC501B99FEAE00EAA7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FEFC521B99FEAE00EAA7E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4FEFC551B99FEAE00EAA7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4FEFC5B1B99FEAE00EAA7E4 /* Amazon_CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amazon_CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FEFC601B99FEAE00EAA7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FEFC611B99FEAE00EAA7E4 /* Amazon_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amazon_CameraTests.m; sourceTree = "<group>"; };
+		F4FFE0A81B9A463900076198 /* AWSAPIGateway.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAPIGateway.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSAPIGateway.framework"; sourceTree = "<group>"; };
+		F4FFE0A91B9A463900076198 /* AWSAutoScaling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSAutoScaling.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSAutoScaling.framework"; sourceTree = "<group>"; };
+		F4FFE0AA1B9A463900076198 /* AWSCloudWatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCloudWatch.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSCloudWatch.framework"; sourceTree = "<group>"; };
+		F4FFE0AB1B9A463900076198 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSCore.framework"; sourceTree = "<group>"; };
+		F4FFE0AC1B9A463900076198 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSDynamoDB.framework"; sourceTree = "<group>"; };
+		F4FFE0AD1B9A463900076198 /* AWSEC2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSEC2.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSEC2.framework"; sourceTree = "<group>"; };
+		F4FFE0AE1B9A463900076198 /* AWSElasticLoadBalancing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSElasticLoadBalancing.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSElasticLoadBalancing.framework"; sourceTree = "<group>"; };
+		F4FFE0AF1B9A463900076198 /* AWSKinesis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSKinesis.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSKinesis.framework"; sourceTree = "<group>"; };
+		F4FFE0B01B9A463900076198 /* AWSLambda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSLambda.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSLambda.framework"; sourceTree = "<group>"; };
+		F4FFE0B11B9A463900076198 /* AWSMachineLearning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMachineLearning.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSMachineLearning.framework"; sourceTree = "<group>"; };
+		F4FFE0B21B9A463900076198 /* AWSMobileAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileAnalytics.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSMobileAnalytics.framework"; sourceTree = "<group>"; };
+		F4FFE0B41B9A463900076198 /* AWSSES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSES.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSSES.framework"; sourceTree = "<group>"; };
+		F4FFE0B51B9A463900076198 /* AWSSimpleDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSimpleDB.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSSimpleDB.framework"; sourceTree = "<group>"; };
+		F4FFE0B61B9A463900076198 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSSNS.framework"; sourceTree = "<group>"; };
+		F4FFE0B71B9A463900076198 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSSQS.framework"; sourceTree = "<group>"; };
+		F4FFE0C81B9A464700076198 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/extras/AWSCognito.framework"; sourceTree = "<group>"; };
+		F4FFE0CB1B9A64A200076198 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../../../Downloads/aws-ios-sdk-2.2.5/frameworks/AWSS3.framework"; sourceTree = "<group>"; };
+		F4FFE0CD1B9A650F00076198 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F4FFE0CF1B9A651900076198 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F4FFE0D11B9A652700076198 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FEFC3F1B99FEAE00EAA7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FFE0D21B9A652700076198 /* SystemConfiguration.framework in Frameworks */,
+				F4FFE0D01B9A651900076198 /* libsqlite3.dylib in Frameworks */,
+				F4FFE0CE1B9A650F00076198 /* libz.dylib in Frameworks */,
+				F4FFE0BA1B9A463900076198 /* AWSCloudWatch.framework in Frameworks */,
+				F4FFE0CC1B9A64A200076198 /* AWSS3.framework in Frameworks */,
+				F4FFE0C61B9A463900076198 /* AWSSNS.framework in Frameworks */,
+				F4FFE0C91B9A464700076198 /* AWSCognito.framework in Frameworks */,
+				F4FFE0BF1B9A463900076198 /* AWSKinesis.framework in Frameworks */,
+				F4FFE0BB1B9A463900076198 /* AWSCore.framework in Frameworks */,
+				F4FFE0C21B9A463900076198 /* AWSMobileAnalytics.framework in Frameworks */,
+				F4FFE0C01B9A463900076198 /* AWSLambda.framework in Frameworks */,
+				F4FFE0B81B9A463900076198 /* AWSAPIGateway.framework in Frameworks */,
+				F4FFE0B91B9A463900076198 /* AWSAutoScaling.framework in Frameworks */,
+				F4FFE0BC1B9A463900076198 /* AWSDynamoDB.framework in Frameworks */,
+				F4FFE0C51B9A463900076198 /* AWSSimpleDB.framework in Frameworks */,
+				F4FFE0BE1B9A463900076198 /* AWSElasticLoadBalancing.framework in Frameworks */,
+				F4FFE0C11B9A463900076198 /* AWSMachineLearning.framework in Frameworks */,
+				F4FFE0BD1B9A463900076198 /* AWSEC2.framework in Frameworks */,
+				F4FFE0C71B9A463900076198 /* AWSSQS.framework in Frameworks */,
+				F4FFE0C41B9A463900076198 /* AWSSES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FEFC581B99FEAE00EAA7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4FEFC391B99FEAE00EAA7E4 = {
+			isa = PBXGroup;
+			children = (
+				F4FFE0CA1B9A464F00076198 /* Frameworks */,
+				F4FEFC441B99FEAE00EAA7E4 /* Amazon_Camera */,
+				F4FEFC5E1B99FEAE00EAA7E4 /* Amazon_CameraTests */,
+				F4FEFC431B99FEAE00EAA7E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FEFC431B99FEAE00EAA7E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFC421B99FEAE00EAA7E4 /* Amazon_Camera.app */,
+				F4FEFC5B1B99FEAE00EAA7E4 /* Amazon_CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FEFC441B99FEAE00EAA7E4 /* Amazon_Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFC491B99FEAE00EAA7E4 /* AppDelegate.h */,
+				F4FEFC4A1B99FEAE00EAA7E4 /* AppDelegate.m */,
+				F4FEFC4C1B99FEAE00EAA7E4 /* ViewController.h */,
+				F4FEFC4D1B99FEAE00EAA7E4 /* ViewController.m */,
+				F4FEFC4F1B99FEAE00EAA7E4 /* Main.storyboard */,
+				F4FEFC521B99FEAE00EAA7E4 /* Images.xcassets */,
+				F4FEFC541B99FEAE00EAA7E4 /* LaunchScreen.xib */,
+				F4FEFC451B99FEAE00EAA7E4 /* Supporting Files */,
+			);
+			path = Amazon_Camera;
+			sourceTree = "<group>";
+		};
+		F4FEFC451B99FEAE00EAA7E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFC461B99FEAE00EAA7E4 /* Info.plist */,
+				F4FEFC471B99FEAE00EAA7E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4FEFC5E1B99FEAE00EAA7E4 /* Amazon_CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFC611B99FEAE00EAA7E4 /* Amazon_CameraTests.m */,
+				F4FEFC5F1B99FEAE00EAA7E4 /* Supporting Files */,
+			);
+			path = Amazon_CameraTests;
+			sourceTree = "<group>";
+		};
+		F4FEFC5F1B99FEAE00EAA7E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEFC601B99FEAE00EAA7E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4FFE0CA1B9A464F00076198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE0D11B9A652700076198 /* SystemConfiguration.framework */,
+				F4FFE0CF1B9A651900076198 /* libsqlite3.dylib */,
+				F4FFE0CD1B9A650F00076198 /* libz.dylib */,
+				F4FFE0CB1B9A64A200076198 /* AWSS3.framework */,
+				F4FFE0C81B9A464700076198 /* AWSCognito.framework */,
+				F4FFE0A81B9A463900076198 /* AWSAPIGateway.framework */,
+				F4FFE0A91B9A463900076198 /* AWSAutoScaling.framework */,
+				F4FFE0AA1B9A463900076198 /* AWSCloudWatch.framework */,
+				F4FFE0AB1B9A463900076198 /* AWSCore.framework */,
+				F4FFE0AC1B9A463900076198 /* AWSDynamoDB.framework */,
+				F4FFE0AD1B9A463900076198 /* AWSEC2.framework */,
+				F4FFE0AE1B9A463900076198 /* AWSElasticLoadBalancing.framework */,
+				F4FFE0AF1B9A463900076198 /* AWSKinesis.framework */,
+				F4FFE0B01B9A463900076198 /* AWSLambda.framework */,
+				F4FFE0B11B9A463900076198 /* AWSMachineLearning.framework */,
+				F4FFE0B21B9A463900076198 /* AWSMobileAnalytics.framework */,
+				F4FFE0B41B9A463900076198 /* AWSSES.framework */,
+				F4FFE0B51B9A463900076198 /* AWSSimpleDB.framework */,
+				F4FFE0B61B9A463900076198 /* AWSSNS.framework */,
+				F4FFE0B71B9A463900076198 /* AWSSQS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FEFC411B99FEAE00EAA7E4 /* Amazon_Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FEFC651B99FEAE00EAA7E4 /* Build configuration list for PBXNativeTarget "Amazon_Camera" */;
+			buildPhases = (
+				F4FEFC3E1B99FEAE00EAA7E4 /* Sources */,
+				F4FEFC3F1B99FEAE00EAA7E4 /* Frameworks */,
+				F4FEFC401B99FEAE00EAA7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amazon_Camera;
+			productName = Amazon_Camera;
+			productReference = F4FEFC421B99FEAE00EAA7E4 /* Amazon_Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4FEFC5A1B99FEAE00EAA7E4 /* Amazon_CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FEFC681B99FEAE00EAA7E4 /* Build configuration list for PBXNativeTarget "Amazon_CameraTests" */;
+			buildPhases = (
+				F4FEFC571B99FEAE00EAA7E4 /* Sources */,
+				F4FEFC581B99FEAE00EAA7E4 /* Frameworks */,
+				F4FEFC591B99FEAE00EAA7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FEFC5D1B99FEAE00EAA7E4 /* PBXTargetDependency */,
+			);
+			name = Amazon_CameraTests;
+			productName = Amazon_CameraTests;
+			productReference = F4FEFC5B1B99FEAE00EAA7E4 /* Amazon_CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FEFC3A1B99FEAE00EAA7E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Bryan Fein";
+				TargetAttributes = {
+					F4FEFC411B99FEAE00EAA7E4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F4FEFC5A1B99FEAE00EAA7E4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F4FEFC411B99FEAE00EAA7E4;
+					};
+				};
+			};
+			buildConfigurationList = F4FEFC3D1B99FEAE00EAA7E4 /* Build configuration list for PBXProject "Amazon_Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4FEFC391B99FEAE00EAA7E4;
+			productRefGroup = F4FEFC431B99FEAE00EAA7E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FEFC411B99FEAE00EAA7E4 /* Amazon_Camera */,
+				F4FEFC5A1B99FEAE00EAA7E4 /* Amazon_CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FEFC401B99FEAE00EAA7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FEFC511B99FEAE00EAA7E4 /* Main.storyboard in Resources */,
+				F4FEFC561B99FEAE00EAA7E4 /* LaunchScreen.xib in Resources */,
+				F4FEFC531B99FEAE00EAA7E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FEFC591B99FEAE00EAA7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FEFC3E1B99FEAE00EAA7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FEFC4E1B99FEAE00EAA7E4 /* ViewController.m in Sources */,
+				F4FEFC4B1B99FEAE00EAA7E4 /* AppDelegate.m in Sources */,
+				F4FEFC481B99FEAE00EAA7E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FEFC571B99FEAE00EAA7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FEFC621B99FEAE00EAA7E4 /* Amazon_CameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4FEFC5D1B99FEAE00EAA7E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4FEFC411B99FEAE00EAA7E4 /* Amazon_Camera */;
+			targetProxy = F4FEFC5C1B99FEAE00EAA7E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4FEFC4F1B99FEAE00EAA7E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FEFC501B99FEAE00EAA7E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4FEFC541B99FEAE00EAA7E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FEFC551B99FEAE00EAA7E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4FEFC631B99FEAE00EAA7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4FEFC641B99FEAE00EAA7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FEFC661B99FEAE00EAA7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fein91/Downloads/aws-ios-sdk-2.2.5/frameworks",
+					"/Users/fein91/Downloads/aws-ios-sdk-2.2.5/frameworks/extras",
+				);
+				INFOPLIST_FILE = Amazon_Camera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4FEFC671B99FEAE00EAA7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fein91/Downloads/aws-ios-sdk-2.2.5/frameworks",
+					"/Users/fein91/Downloads/aws-ios-sdk-2.2.5/frameworks/extras",
+				);
+				INFOPLIST_FILE = Amazon_Camera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4FEFC691B99FEAE00EAA7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Amazon_CameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon_Camera.app/Amazon_Camera";
+			};
+			name = Debug;
+		};
+		F4FEFC6A1B99FEAE00EAA7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Amazon_CameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon_Camera.app/Amazon_Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FEFC3D1B99FEAE00EAA7E4 /* Build configuration list for PBXProject "Amazon_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FEFC631B99FEAE00EAA7E4 /* Debug */,
+				F4FEFC641B99FEAE00EAA7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FEFC651B99FEAE00EAA7E4 /* Build configuration list for PBXNativeTarget "Amazon_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FEFC661B99FEAE00EAA7E4 /* Debug */,
+				F4FEFC671B99FEAE00EAA7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FEFC681B99FEAE00EAA7E4 /* Build configuration list for PBXNativeTarget "Amazon_CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FEFC691B99FEAE00EAA7E4 /* Debug */,
+				F4FEFC6A1B99FEAE00EAA7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FEFC3A1B99FEAE00EAA7E4 /* Project object */;
+}

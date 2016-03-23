@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eYH-5A-qDd">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gDj-ge-g2r">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="283"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXO-Z9-CPx">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items/>
+                            </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vct-pg-9ei">
+                                <rect key="frame" x="216" y="529" width="88" height="30"/>
+                                <state key="normal" title="Select Photo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhoto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="82S-je-C7m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AW-4O-rb3">
+                                <rect key="frame" x="16" y="529" width="77" height="30"/>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5c3-Rl-Hc7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aRV-nR-OCk">
+                                <rect key="frame" x="0.0" y="284" width="320" height="237"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="237" id="fjh-Gs-743"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bXO-Z9-CPx" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="2HC-vk-TO9"/>
+                            <constraint firstItem="aRV-nR-OCk" firstAttribute="top" secondItem="gDj-ge-g2r" secondAttribute="bottom" constant="1" id="5CQ-Pu-aPa"/>
+                            <constraint firstItem="Vct-pg-9ei" firstAttribute="leading" secondItem="1AW-4O-rb3" secondAttribute="trailing" constant="123" id="9a0-fc-9sa"/>
+                            <constraint firstItem="1AW-4O-rb3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="9pv-8d-evk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gDj-ge-g2r" secondAttribute="trailing" constant="-16" id="BRL-9c-lrK"/>
+                            <constraint firstItem="gDj-ge-g2r" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="JQm-8W-l0p"/>
+                            <constraint firstItem="Vct-pg-9ei" firstAttribute="leading" secondItem="1AW-4O-rb3" secondAttribute="trailing" constant="123" id="U1o-en-TyT"/>
+                            <constraint firstItem="aRV-nR-OCk" firstAttribute="top" secondItem="gDj-ge-g2r" secondAttribute="bottom" constant="1" id="VxG-Jv-1jf"/>
+                            <constraint firstItem="bXO-Z9-CPx" firstAttribute="trailing" secondItem="aRV-nR-OCk" secondAttribute="trailing" id="ZKt-XV-0pn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aRV-nR-OCk" secondAttribute="trailing" constant="-16" id="hHl-nS-Wda"/>
+                            <constraint firstItem="bXO-Z9-CPx" firstAttribute="leading" secondItem="aRV-nR-OCk" secondAttribute="leading" id="k8e-ee-ADL"/>
+                            <constraint firstItem="Vct-pg-9ei" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="kWt-18-n4h"/>
+                            <constraint firstItem="1AW-4O-rb3" firstAttribute="top" secondItem="aRV-nR-OCk" secondAttribute="bottom" constant="8" id="khw-MR-UG4"/>
+                            <constraint firstItem="gDj-ge-g2r" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="m7S-ew-0D0"/>
+                            <constraint firstItem="aRV-nR-OCk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="ntU-ra-5Cb"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Vct-pg-9ei" secondAttribute="bottom" constant="9" id="v0R-uJ-YX8"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1AW-4O-rb3" secondAttribute="bottom" constant="9" id="vkM-L3-SU6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6LJ-a4-0KH"/>
+                    <connections>
+                        <outlet property="imageView" destination="gDj-ge-g2r" id="Qdb-2b-qkl"/>
+                        <outlet property="picture" destination="aRV-nR-OCk" id="5UA-nQ-r52"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="320"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m0E-Ai-Iu0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eYH-5A-qDd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Byp-Mg-4eO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="3hU-mn-DBa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B0V-5D-NdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="320"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
